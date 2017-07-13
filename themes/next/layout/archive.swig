@@ -22,7 +22,6 @@
       {% else %}
         {% set cheers = 'um' %}
       {% endif %}
-      {{ __('cheers.' + cheers) }}! {{ _p("counter.archive_posts", site.posts.length) }} {{ __('keep_on') }}
     </span>
 
     {% for post in page.posts %}
