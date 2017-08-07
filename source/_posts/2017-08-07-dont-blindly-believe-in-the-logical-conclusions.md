@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Mind
-title: 质疑别人的逻辑是一种病
+title: 不要盲目相信逻辑结论
 ---
 
 思维是一种很奇妙的东西，
