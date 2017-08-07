@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Math
+categories: Mind
 title: 工程师的两难困境
 ---
 
