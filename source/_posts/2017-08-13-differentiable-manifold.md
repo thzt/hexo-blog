@@ -145,3 +145,85 @@ $G$上的$C^\infty$函数又称为**光滑函数**。
 显然，如果$f$是从$M$到$N$的光滑同胚，
 则$f^{-1}$是从$N$到$M$的光滑同胚。
 
+**切向量**
+假定$M$是一个$m$维光滑流形，$p\in M$，
+$C^\infty_p$表示在$p$点的光滑函数的集合。
+光滑流形$M$在点$p\in M$的一个**切向量**$v$指的是，
+满足以下两个条件的映射$v:C^\infty_p\rightarrow R$，
+（1）$\forall f,g\in C^\infty_p$，$\forall\lambda\in R$，$v(f+\lambda g)=v(f)+\lambda v(g)$，
+（2）$\forall f,g\in C^\infty_p$，$v(fg)=v(f)g(p)+f(p)v(g)$。
+
+设$(U,\varphi;x^i)$是$p$点的一个局部坐标系，
+对于任意的$f\in C^\infty_p$，记，
+$\frac{\partial f}{\partial x^i}(p)=\frac{\partial (f\circ\varphi^{-1})}{\partial x^i}(\varphi(p))$。
+
+设$M=R^m$，$x_0\in R^m$，
+对于向量$v\in R^m$，我们定义映射$D_v:C^\infty_{x_0}\rightarrow R$如下，
+对于任意的函数$f\in C^\infty_{x_0}$，令，
+$D_v f=\frac{df(x_0+tv)}{dt}\Big\vert_{t=0}$，
+则$D_v f$是函数$f$在点$x_0$沿向量$v$的**方向导数**。
+
+容易验证，方向导数算子$D_v f$满足切向量的条件，
+所以它是$R^m$在$x_0$点的一个切向量。
+
+假定$v=(v^1,\cdots,v^m)$，则，
+$D_v f=\displaystyle\sum_{i=1}^m\frac{\partial f}{\partial x^i}(x_0)\cdot v^i$。
+因此，算子$D_v$是由向量$v$决定的。（可证是唯一决定的。）
+
+反之，可以证明，如果映射$\sigma:C^\infty_{x_0}\rightarrow R$满足切向量的条件，
+则必有唯一的一个向量$v\in R^m$，使得相应的方向导数算子$D_v=\sigma$。
+
+所以，向量$v$与方向导数算子$D_v$是一一对应的，
+这就是说，可以把$v$和$D_v$等同起来。
+
+设$M$是一个$m$维光滑流形，
+$\gamma:(-\varepsilon,\varepsilon)\rightarrow M$是$M$上的一条光滑曲线，记$p=\gamma(0)$，
+利用$\gamma$可以定义一个映射$v:C^\infty_p\rightarrow R$如下，
+对于任意的$f\in C^\infty_p$，令，
+$v(f)=\frac{d}{dt}\Big\vert_{t=0}f\circ\gamma(t)=\frac{df(\gamma(t))}{dt}\Big\vert_{t=0}$。
+
+容易验证，映射$v:C^\infty_p\rightarrow R$满足切向量的条件，
+因此，$v$是光滑流形$M$在$p$点的一个切向量，
+称为曲线$\gamma$在$t=0$点处的**切向量**，记为$\gamma'(0)$，
+这样上式成为，$\gamma'(0)(f)=\frac{df(\gamma(t))}{dt}\Big\vert_{t=0}$。
+
+**切空间**
+把光滑流形$M$在点$p$处的切向量构成的集合，记为$T_p M$，
+在$T_p M$中，引入加法和数乘运算如下，
+对于任意的$u,v\in T_p M$，$\lambda\in R$，以及$f\in C^\infty_p$，定义，
+$(u+v)(f)=u(f)+v(f)$，
+$(\lambda u)(f)=\lambda\cdot u(f)$。
+
+显然，这样定义的$u+v$和$\lambda u$仍然是$M$在$p$点的切向量，
+即$T_p M$关于这样的加法和数乘运算是封闭的。
+进一步可以验证，$T_p M$关于上述的加法和数乘运算构成一个实向量空间。
+
+向量空间$T_p M$，称为光滑流形$M$在点$p$的**切空间**。
+
+设$(U,\varphi;x^i)$是$M$在$p$点的一个局部坐标系，
+$x^i(p)=x^i_0$，$1\leqslant i\leqslant m$，
+对于每一个$i$，
+设$\gamma_i:(-\varepsilon,\varepsilon)\rightarrow M$是通过点$p$的第$i$条坐标曲线（称为$x^i$曲线），
+即对于任意的$t\in(-\varepsilon,\varepsilon)$，
+$\gamma_i(t)=\varphi^{-1}(x^1_0,\cdots,x^i_0+t,\cdots,x^m_0)$。
+
+因此，$\gamma'_i(0)$是$M$在$p$点的一个切向量，以后记为$\frac{\partial}{\partial x^i}\Big\vert_p$。
+由定义，对于任意的$f\in C^\infty_p$，
+$\frac{\partial}{\partial x^i}\Big\vert_p(f)=\frac{df(\gamma_i(t))}{dt}\Big\vert_{t=0}$
+$=\frac{d}{dt}_{t=0}f\circ\varphi^{-1}(x^1_0,\cdots,x^i_0+t,\cdots,x^m_0)$
+$=\frac{\partial(f\circ\varphi^{-1})}{\partial x^i}(\varphi(p))$
+$=\frac{\partial f}{\partial x^i}(p)$。
+
+**定理：**
+设$M$是一个$m$维光滑流形，$p\in M$，
+$(U;x^i)$是包含$p$点的任意一个容许的局部坐标系，
+则$M$在$p$点的$m$个切向量，$\frac{\partial}{\partial x^i}\Big\vert_p$，$1\leqslant i\leqslant m$，
+构成了切空间$T_p M$的一个基底，特别的，$dimT_p M=m$。
+
+通常把基底$\left\{\frac{\partial}{\partial x^i}\Big\vert_p,\ 1\leqslant i\leqslant m\right\}$，
+称为在$p$点处由局部坐标系$(U;x^i)$给出的**自然基底**。
+
+可证，任何一个切向量$v$，在自然基底$\left\{\frac{\partial}{\partial x^j}\Big\vert_p,\ 1\leqslant j\leqslant m\right\}下的分量$v^i$，
+恰好是该切向量，在第$i$个局部坐标函数$x^i$上作用得到的值，$v(x^i)$，
+$v=\displaystyle\sum_{i=1}^m v(x^i)\frac{\partial}{\partial x^i}\Big\vert_p$。
+
