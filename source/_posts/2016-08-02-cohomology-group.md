@@ -162,7 +162,7 @@ title: 懵逼的上同调群
 
 <span data-katex="o_i(a_1,a_2,\cdots ,a_{k_i})\sim o_i(b_1,b_2,\cdots ,b_{k_i})"></span>
 
-则称等价关系\sim"></span>对运算<span data-katex="o_i"></span>具有置换性质。
+则称等价关系<span data-katex="\sim"></span>对运算<span data-katex="o_i"></span>具有置换性质。
 
 <br/>
 
