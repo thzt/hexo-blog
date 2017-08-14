@@ -214,7 +214,6 @@ $=\frac{d}{dt}_{t=0}f\circ\varphi^{-1}(x^1_0,\cdots,x^i_0+t,\cdots,x^m_0)$
 $=\frac{\partial(f\circ\varphi^{-1})}{\partial x^i}(\varphi(p))$
 $=\frac{\partial f}{\partial x^i}(p)$。
 
-**定理：**
 设$M$是一个$m$维光滑流形，$p\in M$，
 $(U;x^i)$是包含$p$点的任意一个容许的局部坐标系，
 则$M$在$p$点的$m$个切向量，$\frac{\partial}{\partial x^i}\Big\vert_p$，$1\leqslant i\leqslant m$，
