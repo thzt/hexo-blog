@@ -167,8 +167,8 @@ $D_v f=\frac{df(x_0+tv)}{dt}\Big\vert_{t=0}$，
 所以它是$R^m$在$x_0$点的一个切向量。
 
 假定$v=(v^1,\cdots,v^m)$，则，
-$D_v f=\displaystyle\sum_{i=1}^m\frac{\partial f}{\partial x^i}(x_0)\cdot v^i=v\cdot\triangledown f$。
-因此，算子$D_v=v\cdot\triangledown$是由向量$v$唯一决定的。
+$D_v f=\displaystyle\sum_{i=1}^m\frac{\partial f}{\partial x^i}(x_0)\cdot v^i$。
+因此，算子$D_v$是由向量$v$唯一决定的。
 
 反之，可以证明，如果映射$\sigma:C^\infty_{x_0}\rightarrow R$满足切向量的条件，
 则必有唯一的一个向量$v\in R^m$，使得相应的方向导数算子$D_v=\sigma$。
