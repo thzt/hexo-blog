@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Math
-title: 微分几何考古
+title: 黎曼几何基础
 ---
 
 **可微函数**
@@ -163,12 +163,12 @@ $\frac{\partial f}{\partial x^i}(p)=\frac{\partial (f\circ\varphi^{-1})}{\partia
 $D_v f=\frac{df(x_0+tv)}{dt}\Big\vert_{t=0}$，
 则$D_v f$是函数$f$在点$x_0$沿向量$v$的**方向导数**。
 
-容易验证，方向导数算子$D_v f$满足切向量的条件，
+容易验证，方向导数算子$D_v$满足切向量的条件，
 所以它是$R^m$在$x_0$点的一个切向量。
 
 假定$v=(v^1,\cdots,v^m)$，则，
-$D_v f=\displaystyle\sum_{i=1}^m\frac{\partial f}{\partial x^i}(x_0)\cdot v^i$。
-因此，算子$D_v$是由向量$v$决定的。（可证是唯一决定的。）
+$D_v f=\displaystyle\sum_{i=1}^m\frac{\partial f}{\partial x^i}(x_0)\cdot v^i=v\cdot\triangledown f$。
+因此，算子$D_v=v\cdot\triangledown$是由向量$v$唯一决定的。
 
 反之，可以证明，如果映射$\sigma:C^\infty_{x_0}\rightarrow R$满足切向量的条件，
 则必有唯一的一个向量$v\in R^m$，使得相应的方向导数算子$D_v=\sigma$。
@@ -226,4 +226,82 @@ $(U;x^i)$是包含$p$点的任意一个容许的局部坐标系，
 可证，任何一个切向量$v$，在自然基底$\left\{\frac{\partial}{\partial x^j}\Big\vert_p,\ 1\leqslant j\leqslant m\right\}下的分量$v^i$，
 恰好是该切向量，在第$i$个局部坐标函数$x^i$上作用得到的值，$v(x^i)$，
 $v=\displaystyle\sum_{i=1}^m v(x^i)\frac{\partial}{\partial x^i}\Big\vert_p$。
+
+**余切向量**
+切空间$T_p M$的对偶空间，称为光滑流形$M$在$p$点的**余切空间**，记为$T^*_p M$，
+其中的元素，即线性函数$\alpha:T_p M\rightarrow R$，称为$M$在$p$点的**余切向量**。
+
+为了强调切空间与余切空间的对偶性，
+常常把一个余切向量$\alpha\in T^*_p M$在切向量$v\in T_p M$上的作用记为$\alpha(v)=\left\langle v,\alpha\right\rangle$。
+由$(v,\alpha)\mapsto\left\langle v,\alpha\right\rangle$确定的映射，
+$\left\langle \cdot,\cdot\right\rangle:T_p M\times T^*_p M\rightarrow M$，
+称为$T_p M$与$T^*_p M$之间的**配合**。
+
+设$f\in C^\infty_p$，定义映射$df:T_p M\rightarrow R$如下，
+对于任意的$v\in T_p M$，
+$\left\langle v,df\right\rangle=df(v)=v(f)\in R$。
+
+显然$df$是$T_p M$上的线性函数，即$df\in T^*_p M$，
+有时，为了强调$df$是在$p$点的一个余切向量，也把$df$记为$df|_p$，或$df(p)$。
+
+设$(U;x^i)$是光滑流形$M$的一个容许局部坐标系，$p\in U$，
+由于每个坐标函数都是$U$上的光滑函数，因而$dx^i|_p\in T^*_p M$，并且，
+$\left\langle\frac{\partial}{\partial x^j}\Big\vert_p,dx^i|_p\right\rangle=\frac{\partial x^i}{\partial x^j}\Big\vert_p=\delta^i_j$。
+
+由此可见，$\{dx^i|_p;\ 1\leqslant i\leqslant m\}$是$T^*_p M$中与自然基底
+$\left\{\frac{\partial}{\partial x^i}\Big\vert_p;\ 1\leqslant i\leqslant m\right\}$
+对偶的基底。
+
+一般的，对于任意的$\alpha\in T^*_p M$，有
+$\alpha=\displaystyle\sum_{i=1}^m \alpha_idx^i|_p=\displaystyle\sum_{i=1}^m\left\langle\frac{\partial}{\partial x^i}\Big\vert_p,\alpha\right\rangle dx^i|_p$，
+特别的，对于任意的$f\in C^\infty_p$，
+$df|_p=\displaystyle\sum_{i=1}^m\frac{\partial f}{\partial x^i}(p)dx^i|_p$。
+因此，余切向量$df|_p=df(p)$，也称为函数$f$在$p$点的**微分**。
+
+**切映射和余切映射**
+设$M,N$分别是$m,n$维光滑流形，$F:M\rightarrow N$是光滑映射，$p\in M$，
+对于任意的$v\in T_p M$，我们可以通过映射$F$得到切向量$F_*(v)\in T_{F(p)}N$，其定义为，
+$F_*(v)(f)=v(f\circ F)$，$\forall f\in C^\infty_{F(p)}$。
+
+这样，就得到一个映射$F_*:T_p M\rightarrow T_{F(p)}N$，
+易知，$F_*$是线性映射，称为光滑映射$F$在$p$点的**切映射**，或微分，
+它的对偶映射$F^*:T^*_{F(p)}N\rightarrow T^*_p M$，
+称为光滑映射$F$在$p$点的**余切映射**，或拉回映射。
+
+由对偶映射的定义，余切映射$F^*:T^*_{F(p)}N\rightarrow T^*_p M$也是线性映射，
+并且对于任意的$\omega\in T^*_{F(p)}N$，$F^*\omega$由下式定义，
+$(F^*\omega)(v)=\omega(F_*(v))$，$\forall v\in T_p M$。
+
+为了强调对于点$p$的依赖性，
+常常用$F_{*p}$和$F^*_p$来表示映射$F$在$p$点的切映射和余切映射。
+
+**切向量场**
+设$M$是一个$m$维光滑流形，$M$在每一点$p$处都有切空间$T_p M$，记
+$TM=\displaystyle\bigcup_{p\in M}T_p M$。
+
+$M$上的一个**切向量场**$X$是指，在$M$的每一个点$p$处指定了$M$在该点的一个切向量$X(p)$，
+换句话说，$M$上的切向量场是一个映射$X:M\rightarrow TM$，
+使得对于任意一点$p\in M$，$X(p)\in T_p M$。
+
+比如，在$M$的任意一个容许局部坐标系$(U;x^i)$下，
+$\frac{\partial}{\partial x^i}$是$U$上的切向量场，
+特别的，这样一组切向量场在$U$中每一点$p$处的值，构成该点的切空间$T_p M$的一个基底。
+通常称这样一组切向量场为$U$上的一个**标架场**，
+为了叙述的方便，以后把$\left\{\frac{\partial}{\partial x^i}\Big\vert_p\right\}$称为，
+$M$在局部坐标系$(U;x^i)$下的**自然标架场**。
+
+设$X:M\rightarrow TM$是$m$维光滑流形$M$上的切向量场，
+如果对于每一点$p\in M$，存在$p$点的容许局部坐标系$(U;x^i)$，
+使得$X$限制在$U$上的局部坐标表达式，
+$X|_U=\displaystyle\sum_{i=1}^m X^i\frac{\partial}{\partial x^i}$
+中的分量$X^i$都是$U$上的光滑函数（$1\leqslant i\leqslant m$），
+则称$X$是$M$上的**光滑切向量场**。
+
+由定义和局部坐标系的$C^\infty$相容性可得，
+$M$上的一个切向量场$X$为光滑切向量场
+$\Leftrightarrow$$X$关于每一个自然标架场的分量是光滑函数
+$\Leftrightarrow$$X$在每一个容许坐标系$(U;x^i)$上的限制$X|_U$是$U$上的光滑切向量场。
+
+**张量场**
+
 
