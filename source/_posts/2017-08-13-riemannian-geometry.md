@@ -4,6 +4,8 @@ categories: Math
 title: 黎曼几何基础
 ---
 
+### 微分流形
+
 **可微函数**
 $n$维**欧氏空间**，简记为$R^n$，是有序的$n$元实数组的集合，
 并赋予标准的距离$d$所构成的空间，其元素称为“点”。
@@ -404,7 +406,139 @@ $B^r(M)$中的元素称为$M$上的**恰当微分式**，
 但是，著名的de Rham定理说，当$M$是紧致光滑流形时，de Rham上同调群$H^r(M)$与$M$的第$r$个实系数上同调群是同构的，
 由此可见，de Rham上同调群$H^r(M)$是流形$M$的拓扑不变量。
 
-- - -
+**向量丛**
+设$E,M$是两个光滑流形，$\pi:E\rightarrow M$是一个光滑的满映射，
+$V=R^q$是$q$维向量空间，如果在$M$上存在一个开覆盖$\{U_\alpha;\alpha\in I\}$，
+以及一组映射$\{\psi_\alpha;\alpha\in I\}$，它们满足下列条件，
+（1）$\forall\alpha\in I$，映射$\psi_\alpha$是从$U_\alpha\times R^q$到$\pi^{-1}(U)$的光滑同胚，
+并且对于任意的$p\in U_\alpha$，$y\in R^q$有，
+$\pi\circ\psi_\alpha(p,y)=p$。
+（2）对于任意固定的$p\in U_\alpha$，令，
+$\psi_{\alpha,p}(y)=\psi_\alpha(p,y)$，$\forall y\in R^q$，
+则映射$\psi_{\alpha,p}:R^q\rightarrow\pi^{-1}(p)$是同胚，
+而当$p\in U_\alpha\cap U_\beta\neq\varnothing$时，
+映射$g_{\beta\alpha}(p)=\pi^{-1}_{\beta,p}\circ\psi_{\alpha,p}:R^q\rightarrow R^p$，
+是线性同构，即$g_{\beta\alpha}(p)\in GL(q)$。
+（3）当$U_\alpha\cap U_\beta\neq\varnothing$时，
+映射$g_{\beta\alpha}:U_\alpha\cap U_\beta\rightarrow GL(q)$是光滑的。
+
+则称$(E,M,\pi)$为光滑流形$M$上的秩为$q$的**向量丛**，
+其中，$E$称为**丛空间**，$M$称为**底流形**，
+映射$\pi:E\rightarrow M$称为**丛投影**。
+
+为了方便，以后也把向量丛$(E,M,\pi)$，记为$\pi:E\rightarrow M$，或$E$。
+
+易证，对于任意的$p\in M$，在$\pi^{-1}(p)$上具有自然的线性结构，
+使得映射$\psi_{\alpha,p}:R^q\rightarrow\pi^{-1}(p)$为线性同构，
+以后把$\pi^{-1}(p)$称为向量丛$E$在点$p\in M$的**纤维**，也记为$E_p$。
+
+由此可见，向量丛$\pi:E\rightarrow M$，
+是一簇“栽种在”光滑流形$M$上的$q$维向量空间。
+映射$\psi_\alpha:U_\alpha\times R^q\rightarrow\pi^{-1}(U_\alpha)$，
+称为向量丛$E$的**局部平凡化**。
+
+$\pi:TM\rightarrow M$是$M$上秩为$m$的向量丛，
+称为光滑流形$M$上的**切向量丛**，简称为$M$的**切丛**。
+
+设$\pi:E\rightarrow M$是光滑流形$M$上的向量丛，$U\subseteq M$为开集，
+若有光滑映射$s:U\rightarrow E$，使得，
+$\pi\circ s=id:U\rightarrow U$，
+则称$s$为向量丛$(E,M,\pi)$的定义在$U$上的一个**光滑截面**，
+特别的，当$U=M$时，则称$s$为向量丛$E$的一个光滑截面。
+
+向量丛$\pi:E\rightarrow M$的光滑截面的集合记为$\Gamma(E)$，
+不难验证，集合$\Gamma(E)$是一个$C^\infty(M)$-模，
+因而也是$R$上的向量空间，
+一般而言，$\Gamma(E)$作为实向量空间是无限维的。
+
+因此，流形$M$上的光滑切向量场，是切丛$TM$的光滑截面，
+反之亦然，因此$\mathscr{X}(M)=\Gamma(TM)$。
+
+设$\pi:E\rightarrow M$是光滑流形$M$上秩为$q$的向量丛，$U\subseteq M$，
+如果存在$q$个局部光滑截面，$s_a\in\Gamma(U)$，$1\leqslant a\leqslant q$，
+使得$\{s_a\}$是处处线性无关的，即对于任意的$p\in U$，
+$\{s_a(p)\}$构成向量空间$\pi^{-1}(p)$的一个基底，
+则称$\{s_a\}$是向量丛$E$的（定义在$U$上的）一个**局部标架场**。
+
+特别的，当$U=M$时，称$\{s_a\}$是大范围的定义在$M$上的标架场。
+一般来说，向量丛的定义在整个底流形上的标架场未必是存在的，
+而局部标架场总是存在的。
+
+**对偶丛**
+设$\pi:E\rightarrow M$是光滑流形$M$上的秩为$q$的向量丛，
+对于任意的$p\in M$，用$E^*_p=(E_p)^*$表示$q$维实向量空间$E_p$的对偶空间，
+并记$E^*=\displaystyle\bigcup_{p\in M}E^*_p$，
+再定义映射$\tilde{\pi}:E^*\rightarrow M$，使得，
+$\tilde{\pi}(\omega)=p$，$\forall\omega\in E^*_p$，于是，
+$\tilde{\pi}^{-1}(p)=E^*_p$。
+
+假定$\psi_\alpha:U_\alpha\times R^q\rightarrow\pi^{-1}(U_\alpha)$，$\alpha\in I$，
+是向量丛$(E,M,\pi)$的局部平凡化，且$\{U_\alpha;\alpha\in I\}$是$M$的一个开覆盖，
+取定$R^q$的一个标准基底$\delta=\{\delta_a;a=1,\cdots,q\}$，它的对偶基底记作$\delta^*=\{\delta^a\}$，
+对于任意的$\alpha\in I$，设$E$在$U_\alpha$上的局部截面$e\{\alpha,a}$由
+$e_{\alpha,a}=\psi_\alpha(p,\delta^a)$确定，
+$\forall p\in U_\alpha$，用$\{e^a_\alpha(p)\}$表示$\{e_{\alpha,a}(p)\}$在纤维$\tilde{\pi}^{-1}(p)$中的对偶基底。
+于是，可以定义映射，
+$\tilde{\psi}_\alpha:U_\alpha\times R^q\rightarrow\tilde{\pi}^{-1}(U_\alpha)$，
+使得，
+$\tilde{\psi}_\alpha(p,y)\displaystyle\sum_a y_ae^a_\alpha(p)$，$\forall p\in U_\alpha$，
+$y=y_a\delta^a\in(R^q)^*=R^q$。
+
+类似于切丛的构造方法，在$E^*$中可以引入微分结构，使得$E^*=(E^*,M,\tilde{\pi})$成为秩是$q$的向量丛，
+而$\{\tilde{\psi}_\alpha\}$就是它的局部平凡化。
+新构造出的向量丛$E^*$称为已知向量丛$E$的**对偶丛**。
+
+特别的，光滑流形$M$的切丛$TM$的对偶丛$(TM)^*$，
+就是$M$上的所有余切向量构成的向量丛，
+称为$M$的**余切向量丛**，或**余切丛**，并记为$T^*M$，
+$T^*M$的（局部）标架场，称为**（局部）余切标架场**。
+
+**向量丛的直和与张量积**
+设$\pi:E\rightarrow M$和$\tilde{\pi}:\tilde{E}\rightarrow M$是光滑流形$M$上的两个向量丛，它们的秩分别是$q$和$\tilde{q}$，
+则由$E$和$\tilde{E}$，可以构造出**向量丛的直和**$E\oplus\tilde{E}$，
+和**张量积**$E\otimes\tilde{E}$，具体做法如下。
+
+$\forall p\in M$，向量丛$E$和$\tilde{E}$在$p$点的纤维，
+分别记为$E_p$和$\tilde{E}_p$，
+它们是两个实向量空间，并且$dim\ E_p=q$，$dim\ \tilde{E}_p=\tilde{q}$，令，
+$E\oplus\tilde{E}=\displaystyle\bigcup_{p\in M}E_p\oplus\tilde{E}_p$，
+$E\otimes\tilde{E}=\displaystyle\bigcup_{p\in M}E_p\otimes\tilde{E}_p$。
+
+可以自然的引入投影映射，
+$\pi_1:E\oplus\tilde{E}\rightarrow M$，
+和$\pi_2:E\otimes\tilde{E}\rightarrow M$，
+以及相应的微分构造，使得，
+$(E\oplus\tilde{E},M,\pi_1)$，
+和$(E\otimes\tilde{E},M,\pi_2)$
+分别成为秩是$q+\tilde{q}$和$q\tilde{q}$的向量丛，
+称为向量丛$E$和$\tilde{E}$的直和及张量积。
+
+特别的，光滑流形$M$的$r$个切丛$TM$，和$s$个余切丛$T^*M$的张量积，
+$T^r_s(M)=TM\otimes\cdots\otimes TM\otimes T^*M\otimes\cdots\otimes T^*M$，
+是由$M$上在各点处的$(r,s)$型张量构成的集合，
+它是秩为$m^{r+s}$的向量丛，即有，
+$T^r_s(M)=\displaystyle\bigcup_{p\in M}T^r_s(p)$，
+其中，$T^r_s(p)=T_p M\otimes\cdots\otimes T_p M\otimes T^*_p M\otimes\cdots\otimes T^*_p M$，
+是流形$M$在一点$p$处的$(r,s)$型张量空间。
+
+向量丛$T^r_s(M)$称为光滑流形$M$上的$(r,s)$型**张量丛**，
+它的光滑截面就是$M$上的光滑张量场。
+
+类似的，对于任意的$p\in M$，若以$\bigwedge^r T^*_p M$表示$M$在点$p$的$r$次外形式空间，
+并设$\bigwedge^r T^* M=\displaystyle\bigcup_{p\in M}\bigwedge^r T^*_p M$，
+则$\bigwedge^r T^* M$也是一个向量丛，称为$M$上的$r$次**外形式丛**。
+
+外形式丛的光滑截面是$M$上的外微分式，
+于是有$\Gamma(\bigwedge^r T^* M)=A^r(M)$。
+
+**黎曼向量丛**
+设$\pi:E\rightarrow M$是光滑流形$M$上的一个向量丛，
+如果对于每一点$p\in M$，在纤维$\pi^{-1}$上指定了一个欧氏内积$\left\langle\cdot,\cdot\right\rangle_p$，
+并且$\left\langle\cdot,\cdot\right\rangle_p$光滑的依赖于点$p$，
+则称$\left\langle\cdot,\cdot\right\rangle_p$是向量丛$(E,M,\pi)$上的一个**黎曼结构**，
+指定了一个黎曼结构的向量丛，称为**黎曼向量丛**。
+
+### 黎曼流形
 
 **内积**
 在$n$维向量空间$V$上，**内积**是指满足下列条件的双线性形式，
@@ -510,7 +644,7 @@ $D:\mathscr{X}(M)\times\mathscr{X}(M)\rightarrow\mathscr{X}(M)$，
 $\triangle=div\circ\triangledown:C^\infty(M)\rightarrow C^\infty(M)$，
 称为黎曼流形$(M,g)$上的**Beltrami-Laplace算子**。
 
-- - -
+### 曲率
 
 **曲率张量场**
 设$(M,D)$是$m$维仿射联络空间，对于任意的$X,Y\in\mathscr{X}(M)$，
