@@ -301,6 +301,9 @@ $M$上的一个切向量场$X$为光滑切向量场
 $\Leftrightarrow$$X$关于每一个自然标架场的分量是光滑函数
 $\Leftrightarrow$$X$在每一个容许坐标系$(U;x^i)$上的限制$X|_U$是$U$上的光滑切向量场。
 
+$M$上光滑切向量场的集合，记为$\mathscr{X}(M)$，
+显然，$\mathscr{X}(M)$关于加法和数乘是封闭的，因而它是一个向量空间。
+
 **张量场**
 $M$在点$p$处的一个$(r,s)$型张量$\tau$，是指一个$r+s$重线性映射，
 $r:T^*_p M\times\cdots\timesT^*_p M\times T_p M\times\cdots\times T_p M\rightarrow R$，
