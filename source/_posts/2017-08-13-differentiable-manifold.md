@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Math
-title: 微分流形
+title: 微分几何考古
 ---
 
 **可微函数**
