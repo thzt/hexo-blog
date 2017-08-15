@@ -42,8 +42,6 @@ title: 黎曼几何基础
 
 为了方便起见，把<span data-katex="C^r(U)"></span>中的函数，称为（<span data-katex="U"></span>上的）<span data-katex="C^r"></span>函数。
 
-<br/>
-
 ### 欧氏空间之间的映射
 
 设<span data-katex="U"></span>是<span data-katex="R^n"></span>的一个开子集，
@@ -67,8 +65,6 @@ title: 黎曼几何基础
 特别的，如果<span data-katex="U"></span>是<span data-katex="R"></span>的一个开区间，
 
 则<span data-katex="C^\infty"></span>映射<span data-katex="f:U\rightarrow R^k"></span>又称为<span data-katex="R^k"></span>中的一条**光滑曲线**。
-
-<br/>
 
 ### 拓扑流形和微分流形
 
@@ -142,8 +138,6 @@ title: 黎曼几何基础
 
 在不引起混淆的情况下，也用<span data-katex="M"></span>表示一个<span data-katex="C^r"></span>微分流形<span data-katex="(M,\mathscr{A})"></span>。
 
-<br/>
-
 ### 局部坐标系
 
 设<span data-katex="(U,\varphi)"></span>是<span data-katex="m"></span>维微分流形<span data-katex="M"></span>的一个容许坐标卡，
@@ -189,8 +183,6 @@ title: 黎曼几何基础
 并且记，
 
 <span data-katex="\frac{\partial (y^1,\cdots,y^m)}{\partial (x^1,\cdots,x^m)}=det\left ( \frac{\partial y^i}{\partial x^i} \right )"></span>。
-
-<br/>
 
 ### 流形间的映射
 
@@ -284,8 +276,6 @@ title: 黎曼几何基础
 
 则<span data-katex="f^{-1}"></span>是从<span data-katex="N"></span>到<span data-katex="M"></span>的光滑同胚。
 
-<br/>
-
 ### 切向量
 
 假定<span data-katex="M"></span>是一个<span data-katex="m"></span>维光滑流形，<span data-katex="p\in M"></span>，
@@ -368,8 +358,6 @@ title: 黎曼几何基础
 
 这样上式成为，<span data-katex="\gamma'(0)(f)=\frac{df(\gamma(t))}{dt}\Big\vert_{t=0}"></span>。
 
-<br/>
-
 ### 切空间
 
 把光滑流形<span data-katex="M"></span>在点<span data-katex="p"></span>处的切向量构成的集合，记为<span data-katex="T_p M"></span>，
@@ -446,8 +434,6 @@ title: 黎曼几何基础
 
 <span data-katex="v=\displaystyle\sum_{i=1}^m v(x^i)\frac{\partial}{\partial x^i}\Big\vert_p"></span>。
 
-<br/>
-
 ### 余切向量
 
 切空间<span data-katex="T_p M"></span>的对偶空间，称为光滑流形<span data-katex="M"></span>在<span data-katex="p"></span>点的**余切空间**，记为<span data-katex="T^*_p M"></span>，
@@ -508,8 +494,6 @@ title: 黎曼几何基础
 
 因此，余切向量<span data-katex="df|_p=df(p)"></span>，也称为函数<span data-katex="f"></span>在<span data-katex="p"></span>点的**微分**。
 
-<br/>
-
 ### 切映射和余切映射
 
 设<span data-katex="M,N"></span>分别是<span data-katex="m,n"></span>维光滑流形，<span data-katex="F:M\rightarrow N"></span>是光滑映射，<span data-katex="p\in M"></span>，
@@ -541,8 +525,6 @@ title: 黎曼几何基础
 为了强调对于点<span data-katex="p"></span>的依赖性，
 
 常常用<span data-katex="F_{*p}"></span>和<span data-katex="F^*_p"></span>来表示映射<span data-katex="F"></span>在<span data-katex="p"></span>点的切映射和余切映射。
-
-<br/>
 
 ### 切向量场
 
@@ -601,8 +583,6 @@ title: 黎曼几何基础
 <span data-katex="M"></span>上光滑切向量场的集合，记为<span data-katex="\mathscr{X}(M)"></span>，
 
 显然，<span data-katex="\mathscr{X}(M)"></span>关于加法和数乘是封闭的，因而它是一个向量空间。
-
-<br/>
 
 ### 张量场
 
@@ -679,8 +659,6 @@ title: 黎曼几何基础
 光滑的一阶协变张量场（即余切向量场），又称为**1次微分式**。
 
 把光滑流形<span data-katex="M"></span>上的1次微分式的集合记为<span data-katex="A^1(M)"></span>，即<span data-katex="A^1(M)=\mathscr{J}^0_1(M)"></span>。
-
-<br/>
 
 ### 外微分
 
@@ -802,8 +780,6 @@ title: 黎曼几何基础
 
 由此可见，de Rham上同调群<span data-katex="H^r(M)"></span>是流形<span data-katex="M"></span>的拓扑不变量。
 
-<br/>
-
 ### 向量丛
 
 设<span data-katex="E,M"></span>是两个光滑流形，<span data-katex="\pi:E\rightarrow M"></span>是一个光滑的满映射，
@@ -918,8 +894,6 @@ title: 黎曼几何基础
 
 而局部标架场总是存在的。
 
-<br/>
-
 ### 对偶丛
 
 设<span data-katex="\pi:E\rightarrow M"></span>是光滑流形<span data-katex="M"></span>上的秩为<span data-katex="q"></span>的向量丛，
@@ -975,8 +949,6 @@ title: 黎曼几何基础
 称为<span data-katex="M"></span>的**余切向量丛**，或**余切丛**，并记为<span data-katex="T^*M"></span>，
 
 <span data-katex="T^*M"></span>的（局部）标架场，称为**（局部）余切标架场**。
-
-<br/>
 
 ### 向量丛的直和与张量积
 
@@ -1052,8 +1024,6 @@ title: 黎曼几何基础
 
 于是有<span data-katex="\Gamma(\bigwedge^r T^* M)=A^r(M)"></span>。
 
-<br/>
-
 ### 黎曼向量丛
 
 设<span data-katex="\pi:E\rightarrow M"></span>是光滑流形<span data-katex="M"></span>上的一个向量丛，
@@ -1065,8 +1035,6 @@ title: 黎曼几何基础
 则称<span data-katex="\left\langle\cdot,\cdot\right\rangle_p"></span>是向量丛<span data-katex="(E,M,\pi)"></span>上的一个**黎曼结构**，
 
 指定了一个黎曼结构的向量丛，称为**黎曼向量丛**。
-
-<br/>
 
 ### 内积
 
@@ -1124,8 +1092,6 @@ d定义，在每一点<span data-katex="p\in U"></span>，<span data-katex="(g_{
 
 则<span data-katex="g|_U"></span>可以写成二次微分形式，<span data-katex="g|_U=g_{ij}dx^idx^j"></span>。
 
-<br/>
-
 ### 弧长
 
 设<span data-katex="\gamma:[a,b]\rightarrow M"></span>是<span data-katex="M"></span>中一条光滑曲线，令，
@@ -1143,8 +1109,6 @@ d定义，在每一点<span data-katex="p\in U"></span>，<span data-katex="(g_{
 因而，<span data-katex="L(\gamma)=\int_{a}^{b}\sqrt{g_{ij}(\gamma(t))\frac{dx^i}{dt}\frac{dx^j}{dt}}dt"></span>，
 
 曲线的弧长与曲线的正则参数变换无关，也与光滑流形的局部坐标系的取法无关。
-
-<br/>
 
 ### 协变微分
 
@@ -1188,8 +1152,6 @@ d定义，在每一点<span data-katex="p\in U"></span>，<span data-katex="(g_{
 
 其定义是，对于任意的<span data-katex="X,Y\in\mathscr{X}(M)"></span>，<span data-katex="D(X,Y)=D_YX\in\mathscr{X}(M)"></span>。
 
-<br/>
-
 ### 联络
 
 设<span data-katex="M"></span>是<span data-katex="m"></span>维光滑流形，<span data-katex="M"></span>上的一个**联络**<span data-katex="D"></span>，是指满足下列条件的映射，
@@ -1226,13 +1188,9 @@ d定义，在每一点<span data-katex="p\in U"></span>，<span data-katex="(g_{
 
 <br/>
 
-### 黎曼几何基本定理
-
 设<span data-katex="(M,g)"></span>是<span data-katex="m"></span>维黎曼流形，则在<span data-katex="M"></span>上存在唯一的一个与度量<span data-katex="g"></span>相容的无挠联络<span data-katex="D"></span>，
 
 称为<span data-katex="(M,g)"></span>的**黎曼联络**，或Levi-Civita联络。
-
-<br/>
 
 ### 微分算子
 
@@ -1274,7 +1232,101 @@ d定义，在每一点<span data-katex="p\in U"></span>，<span data-katex="(g_{
 
 称为黎曼流形<span data-katex="(M,g)"></span>上的**Beltrami-Laplace算子**。
 
+### 平行移动
+
+设<span data-katex="(M,D)"></span>是一个<span data-katex="m"></span>维仿射联络空间，<span data-katex="\gamma:[a,b]\rightarrow M"></span>是<span data-katex="M"></span>中的一条光滑曲线，
+
+<span data-katex="X\in\mathscr{X}(M)"></span>，如果沿曲线<span data-katex="\gamma"></span>有，
+
+<span data-katex="D_{\gamma'(t)}X=0"></span>，<span data-katex="\forall t\in [a,b]"></span>，
+
+则称切向量场<span data-katex="X"></span>沿曲线<span data-katex="\gamma"></span>是**平行**的，
+
+或称<span data-katex="X"></span>是沿曲线<span data-katex="\gamma"></span>的**平行向量场**。
+
 <br/>
+
+设<span data-katex="\gamma:[a,b]\rightarrow M"></span>是光滑流形<span data-katex="M"></span>上的一条连续曲线，
+
+如果存在区间<span data-katex="[a,b]"></span>的一个划分，<span data-katex="a=t_0<t_1<\cdots<t_{r-1}<t_r=b"></span>，
+
+使得对于每一个<span data-katex="i"></span>，<span data-katex="1\leqslant i\leqslant r"></span>，
+
+<span data-katex="\gamma|_{[t_{i-1},t_i]}:[t_{i-1},t_i]\rightarrow M"></span>是<span data-katex="M"></span>上的光滑曲线，
+
+则称<span data-katex="\gamma"></span>是<span data-katex="M"></span>上的一条**分段光滑曲线**。
+
+<br/>
+
+此时<span data-katex="\gamma(t_i)"></span>，<span data-katex="(1\leqslant i\leqslant r-1)"></span>称为曲线<span data-katex="\gamma"></span>的**顶点**，
+
+向量<span data-katex="\displaystyle\lim_{t\rightarrow t^-_i}\gamma'(t)"></span>与<span data-katex="\displaystyle\lim_{t\rightarrow t^+_i}\gamma'(t)"></span>，
+
+之间的夹角称为曲线<span data-katex="\gamma"></span>在顶点<span data-katex="\gamma(t_i)"></span>处的**转角**。
+
+<br/>
+
+上述定义中的划分，称为分段光滑曲线<span data-katex="\gamma"></span>的一个**光滑划分**。
+
+<br/>
+
+设<span data-katex="\gamma"></span>是<span data-katex="M"></span>上的一条分段光滑曲线，<span data-katex="X"></span>是<span data-katex="M"></span>上沿曲线<span data-katex="\gamma"></span>定义的连续切向量场，
+
+如果存在<span data-katex="\gamma"></span>的一个光滑划分，<span data-katex="a=t_0<t_1<\cdots<t_{N-1}<t_N=b"></span>，
+
+使得<span data-katex="X"></span>在每一个小区间<span data-katex="[t_{i-1},t_i]"></span>上的限制都光滑的依赖于自变量<span data-katex="t"></span>，
+
+则称<span data-katex="X"></span>是沿曲线<span data-katex="\gamma"></span>定义的**分段光滑（切）向量场**。
+
+<br/>
+
+如果对于任意的<span data-katex="i"></span>，<span data-katex="X"></span>沿光滑曲线段<span data-katex="\gamma_{[t_{i-1},t_i]}"></span>都是平行的，
+
+则称切向量场<span data-katex="X"></span>沿<span data-katex="\gamma"></span>是平行的，
+
+或称<span data-katex="X"></span>是沿<span data-katex="\gamma"></span>的**（分段光滑的）平行向量场**。
+
+<br/>
+
+设<span data-katex="(M,D)"></span>是一个<span data-katex="m"></span>维仿射联络空间，<span data-katex="p\in M"></span>，
+
+<span data-katex="\gamma:[0,b]\rightarrow M"></span>是从点<span data-katex="p=\gamma(0)"></span>出发的一条分段光滑曲线，
+
+则对于任意的<span data-katex="X_0\in T_p M"></span>，沿曲线<span data-katex="\gamma"></span>存在唯一的一个分段光滑平行向量场<span data-katex="X=X(t)"></span>，
+
+满足初始条件<span data-katex="X(0)=X_0"></span>。
+
+<br/>
+
+因此，沿分段光滑曲线<span data-katex="\gamma"></span>的平行向量场的集合，构成一个与<span data-katex="T_pM"></span>同构的向量空间，
+
+特别的，对于任意取定的<span data-katex="t"></span>，<span data-katex="0\leqslant t\leqslant b"></span>，
+
+沿<span data-katex="\gamma"></span>的平行向量场给出了从<span data-katex="T_pM"></span>到<span data-katex="T_{\gamma(t)}M"></span>的线性同构，
+
+<span data-katex="P^t_0:T_pM\rightarrow T_{\gamma(t)}M"></span>，
+
+称为沿曲线<span data-katex="\gamma"></span>从<span data-katex="t=0"></span>到<span data-katex="t"></span>的**平行移动**。
+
+<br/>
+
+这样，由切向量<span data-katex="X_0\in T_pM"></span>确定的沿曲线<span data-katex="\gamma"></span>平行的向量场<span data-katex="X"></span>可以表示为，
+
+<span data-katex="X(t)=P^t_0(X_0)"></span>，<span data-katex="0\leqslant t\leqslant b"></span>。
+
+<br/>
+
+总之，在光滑流形上只要指定了联络，就可以建立平行移动的概念，
+
+反过来，切向量场的协变导数（联络）也可以借助平行移动来得到。
+
+<br/>
+
+设<span data-katex="(M,D)"></span>是一个<span data-katex="m"></span>维仿射联络空间，<span data-katex="\gamma:[0,b]\rightarrow M"></span>，
+
+是<span data-katex="M"></span>中任意一条光滑曲线，则对于任意的<span data-katex="X\in\mathscr{X}(M)"></span>，
+
+<span data-katex="D_{\gamma'(t)}X=\displaystyle\lim_{\Delta t\rightarrow 0}\frac{P^t_{t+\Delta t}(X\circ\gamma(t+\Delta t))-X\circ\gamma(t)}{\Delta t}"></span>。
 
 ### 曲率张量场
 
