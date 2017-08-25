@@ -24,9 +24,7 @@ title: 结构与细节
 
 维基百科中的描述也值得借鉴，
 
-> [Software architecture](https://en.wikipedia.org/wiki/Software_architecture)
-
-> Software architecture refers to the high level **structures** of a software system, the discipline of creating such **structures**, and the documentation of these **structures**.
+> [Software architecture](https://en.wikipedia.org/wiki/Software_architecture) refers to the high level **structures** of a software system, the discipline of creating such **structures**, and the documentation of these **structures**.
 
 <br/>
 
