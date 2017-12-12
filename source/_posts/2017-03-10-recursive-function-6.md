@@ -182,7 +182,7 @@ title: 递归函数（六）：最多有多少个程序
 
 <span data-katex="H(y_0,y_0)"></span>不能为真也不能为假，矛盾，
 
-因此，计算<span data-katex="H(x,x)"></span>的程序不存在，我们也无法用它来构造程序<span data-katex="\mathscr{P}"></span>。
+因此，计算<span data-katex="H(x,y)"></span>的程序不存在，我们也无法用它来构造程序<span data-katex="\mathscr{P}"></span>。
 
 <br/>
 
