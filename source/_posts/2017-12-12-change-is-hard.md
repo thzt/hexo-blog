@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Mind
-title: 改变付出的代价
+title: 为改变买单
 ---
 
 像做工程一样量产软件，是人们的一种愿望，
