@@ -160,7 +160,7 @@ title: 代数数据类型的语法和语义
 
 则可以把环境<span data-katex="\eta"></span>下的任何项<span data-katex="M\in Terms\left ( \Sigma ,\Gamma \right )"></span>的含义<span data-katex="\mathscr{A}[[M]]\eta"></span>定义如下，
 
-（1）<span data-katex="\mathscr{A}[[M]]\eta =\eta (x)"></span>
+（1）<span data-katex="\mathscr{A}[[x]]\eta =\eta (x)"></span>
 
 （2）<span data-katex="\mathscr{A}[[fM_1\cdots M_k]]\eta =f^{\mathscr{A}}(\mathscr{A}[[M_1]]\eta ,\cdots ,\mathscr{A}[[M_k]]\eta )"></span>
 
