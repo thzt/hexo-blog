@@ -410,7 +410,7 @@ title: 拓扑学拾趣
 
 因此，<span data-katex="f"></span>在点<span data-katex="x"></span>处连续，也就是，
 
-对包含<span data-katex="f(x)"></span>的每个开集，比存在包含<span data-katex="x"></span>的开集<span data-katex="U"></span>，
+对包含<span data-katex="f(x)"></span>的每个开集，必存在包含<span data-katex="x"></span>的开集<span data-katex="U"></span>，
 
 使得，<span data-katex="f(U)\subseteq V"></span>。
 
