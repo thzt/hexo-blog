@@ -615,7 +615,7 @@ title: 拓扑学拾趣
 
 <br/>
 
-<span data-katex="X"></span>满足<span data-katex="T_3"></span>公理，当且仅当任意点<span data-katex="x"></span>和它的开邻域<span data-katex="W"></span>，存在<span data-katex="x"></span>的开邻域<span data-katex="U"></span>，
+<span data-katex="X"></span>满足<span data-katex="T_3"></span>公理，当且仅当任意点<span data-katex="x"></span>和它的开邻域<span data-katex="W"></span>，存在<span data-katex="x"></span>的开邻域<span data-katex="U"></span>，
 
 使得<span data-katex="\overline{U}\subseteq W"></span>。
 
@@ -637,7 +637,7 @@ title: 拓扑学拾趣
 
 <br/>
 
-若<span data-katex="\mathscr{B}"></span>是拓扑空间<span data-katex="X"></span>的拓扑基，则<span data-katex="\mathscr{U}=\{B\in \mathscr{B}|x\in B\}"></span>也是<span data-katex="x"></span>的邻域基。
+若<span data-katex="\mathscr{B}"></span>是拓扑空间<span data-katex="X"></span>的拓扑基，则<span data-katex="\mathscr{U}=\{B\in \mathscr{B}|x\in B\}"></span>也是<span data-katex="x"></span>的邻域基。
 
 <br/>
 
