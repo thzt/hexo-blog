@@ -18,6 +18,12 @@ title: 递归函数（五）：递归集与递归可枚举集
 
 ### 数论函数
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-567ebbb9d0fa7c88.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 自然数集一般记为<span data-katex="N=\lbrace 0,1,2,\cdots \rbrace "></span>，那么<span data-katex="n"></span>个自然数集的笛卡尔积记为<span data-katex="N^n"></span>，
 
 于是，我们称集合<span data-katex="N^n"></span>到<span data-katex="N"></span>的部分函数为<span data-katex="n"></span>元部分数论函数。
@@ -45,6 +51,12 @@ title: 递归函数（五）：递归集与递归可枚举集
 <br/>
 
 ### 极小化算子
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-b1d4c18df4caf3bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 在前一篇中，我们从三个初始函数出发，
 
@@ -126,6 +138,12 @@ ackermann k x = ackermann (k-1) $ ackermann k x-1
 <br/>
 
 ### 递归可枚举集
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-6f7383f96e58c74e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 在具体实践中，我们经常会遇到这样的问题，
 

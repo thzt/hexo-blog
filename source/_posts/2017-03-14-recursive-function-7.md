@@ -22,6 +22,12 @@ title: 递归函数（七）：不动点算子
 
 ### 约束方程
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-c82626b07032c9e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 在中学时代，我们学过“方程”的概念，
 
 方程可以简单表述为含有未知数的等式，例如，<span data-katex="3x+3=2"></span>。
@@ -79,6 +85,12 @@ fact n = case n of
 
 ### 函数的不动点
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-417c44596d6f438d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 在中学数学中，我们已经学过不动点了，只是当时印象不是那么深刻，
 
 函数的不动点，是指被这个函数映射到其自身的那些点。
@@ -132,6 +144,12 @@ g f n = case n of
 
 ### 不动点算子
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-6179cf69f757a05a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 我们怎样求解函数`g`的不动点呢？
 
 在Haskell中，可以很方便的定义一个高阶函数`fix`，它可以用来求解任意函数的不动点，
@@ -175,6 +193,12 @@ fact' = fix $ \fact -> \n -> case n of
 <br/>
 
 ### Y组合子
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-2506f85747258985.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 Y组合子，是[Haskell B. Curry](https://zh.wikipedia.org/wiki/Haskell_Curry)在研究<span data-katex="\lambda"></span>演算时发现的，
 

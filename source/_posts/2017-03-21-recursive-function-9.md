@@ -16,6 +16,12 @@ title: 递归函数（九）：最小不动点定理
 
 ### 有向子集与完全偏序
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-cc5d7e479b1911da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 偏序集<span data-katex="(D,\leqslant )"></span>的非空子集<span data-katex="S\subseteq D"></span>叫做有向子集（directed subset），
 
 当且仅当，对于<span data-katex="S"></span>中的任意元素<span data-katex="a,b\in S"></span>，
@@ -39,6 +45,12 @@ title: 递归函数（九）：最小不动点定理
 <br/>
 
 ### 连续函数
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-eb3b6c096d73d399.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 假设<span data-katex="(D,\leqslant )"></span>与<span data-katex="(E,\leqslant )"></span>是完全偏序集，
 
@@ -66,6 +78,12 @@ title: 递归函数（九）：最小不动点定理
 
 ### 连续函数集上的偏序结构
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-7c12a71b029409d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 完全偏序集<span data-katex="(D,\leqslant )"></span>和<span data-katex="(E,\leqslant )"></span>上的连续也可以定义偏序结构，
 
 我们称<span data-katex="f\leqslant g"></span>，当且仅当对于每一个<span data-katex="d\in D"></span>，我们有<span data-katex="f(d)\leqslant g(d)"></span>。
@@ -77,6 +95,12 @@ title: 递归函数（九）：最小不动点定理
 <br/>
 
 ### 最小不动点定理
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-212453ef1b86ac04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 如果<span data-katex="(D,\leqslant )"></span>是一个完全偏序集，且<span data-katex="f:D\rightarrow D"></span>是连续的，
 
@@ -127,6 +151,12 @@ title: 递归函数（九）：最小不动点定理
 <br/>
 
 ### 后继函数的不动点
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-be19cfece5c3589e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 ```
 succ :: Int -> Int

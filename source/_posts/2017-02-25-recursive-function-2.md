@@ -4,6 +4,10 @@ categories: Math
 title: 递归函数（二）：编写递归函数的思路和技巧
 ---
 
+![](http://upload-images.jianshu.io/upload_images/1023733-497eef3766876271.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 递归，是一个熟悉而陌生的概念，说它熟悉，是因为人们经常提起它，
 
 而说它陌生，指的是人们在实际编程中几乎不会主动使用它。

@@ -6,6 +6,12 @@ title: 递归函数（四）：全函数与计算的可终止性
 
 ### 回顾
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-2b1f2577d5df7bd1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 上文我们讨论了集合上的关系，还讨论了数学归纳法的一种普遍形式，称为良基归纳法，
 
 它建立在集合上的良基关系之上。
@@ -62,6 +68,12 @@ title: 递归函数（四）：全函数与计算的可终止性
 
 （1）部分函数（partial function）
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-7cdea02903039737.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 如果<span data-katex="f"></span>是从<span data-katex="A"></span>到<span data-katex="B"></span>的二元关系，且<span data-katex="\forall a\in A"></span>，<span data-katex="f(a)=\varnothing "></span>或<span data-katex="\lbrace b\rbrace "></span>，
 
 则称<span data-katex="f"></span>是从<span data-katex="A"></span>到<span data-katex="B"></span>的部分函数，或<span data-katex="A"></span>上的部分函数。
@@ -77,6 +89,12 @@ title: 递归函数（四）：全函数与计算的可终止性
 <br/>
 
 （2）全函数（total function）
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-48920b73b056a92c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 如果<span data-katex="\forall a\in A"></span>都有<span data-katex="f(a)\downarrow "></span>，则称<span data-katex="f"></span>是<span data-katex="A"></span>上的全函数，
 
@@ -147,6 +165,12 @@ f n = n + f(n-2)
 <br/>
 
 ### 原始递归函数
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-dd7212553dc36d37.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 我们看到在程序中使用递归，可能会导致非终止性的计算，而有些递归又不会。
 
@@ -237,6 +261,12 @@ f n = n + f(n-2)
 <br/>
 
 ### 总结
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-930070b361ad4a52.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 本文介绍了全函数与部分函数，以及计算可终止性相关的概念，
 

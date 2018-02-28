@@ -6,6 +6,12 @@ title: 递归函数（三）：归纳原理
 
 ### 自然数归纳法
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-b5630d6350cb8d0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 自然数归纳法，是一种数学证明方法，通常被用于证明某个给定命题在整个（或者局部）自然数范围内成立。
 
 它可以用一个有限的方式写出一个无限的证明。
@@ -51,6 +57,12 @@ title: 递归函数（三）：归纳原理
 <br/>
 
 ### 例子
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-a8ad53859d33e161.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 在上一篇，我们在定义递归函数`fact`的时候，
 
@@ -99,6 +111,12 @@ fact n = n * fact (n-1)
 <br/>
 
 ### 集合上的关系
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-eec07e9f1d1ccdb2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 关系是一个日常生活用语，例如，“同学关系”，“我们的关系很好”之类的。
 
@@ -155,6 +173,12 @@ fact n = n * fact (n-1)
 <br/>
 
 ### 良基关系
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-cde531c9f6d2cab2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 归纳法有各种各样的形式，自然数归纳法只是其中的一种应用，
 
@@ -222,6 +246,12 @@ fact n = n * fact (n-1)
 
 ### 良基归纳法
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-b14783f3b0cddba1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 设<span data-katex="\prec "></span>为集合<span data-katex="A"></span>上的良基二元关系，并且设<span data-katex="P"></span>为关于<span data-katex="A"></span>中元素的某个命题，
 
 如果<span data-katex="P(b)"></span>对于所有的<span data-katex="b\prec a"></span>成立，就必然有<span data-katex="P(a)"></span>成立，
@@ -277,6 +307,12 @@ fact n = n * fact (n-1)
 <br/>
 
 ### 总结
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-7e329a3fec9f7a22.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 本文从自然数归纳法出发，补充了一些集合论方面的知识，
 

@@ -18,6 +18,12 @@ title: 递归函数（八）：偏序结构
 
 ### 不动点算子的性质
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-a8ca5067e631ea34.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 上文我们介绍了不动点算子`fix`，
 
 它可以用来求取任意函数的不动点。
@@ -95,6 +101,12 @@ fix g (k+1)
 
 ### 不动点算子的有限展开
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-0a009ed0d24a4df6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 根据上一节`fact = fix g`的证明，我们看到，
 
 每一步递推，我们都使用了不动点算子`fix`的性质`fix g = g (fix g)`，
@@ -136,6 +148,12 @@ fix g (k+1)
 <br/>
 
 ### 偏序集与哈斯图
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-548b287983ed9034.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 在第三篇中，我们讨论过[偏序关系](https://zh.wikipedia.org/wiki/%E5%81%8F%E5%BA%8F%E5%85%B3%E7%B3%BB)，
 
@@ -201,6 +219,12 @@ fix g (k+1)
 
 ### 全序集与拟序集
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-69bf19c128135d6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 设<span data-katex="(D,\leqslant )"></span>是一个偏序集，如果对于任意<span data-katex="x,y\in D"></span>，<span data-katex="x"></span>和<span data-katex="y"></span>都可比，
 
 则称<span data-katex="\leqslant "></span>为<span data-katex="D"></span>上的全序关系，此时称<span data-katex="(D,\leqslant )"></span>为全序集。
@@ -238,6 +262,12 @@ fix g (k+1)
 <br/>
 
 ### 最小元与上确界
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-848d5a4650be6c32.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 对于偏序集<span data-katex="(D,\leqslant )"></span>，以及它的一个子集<span data-katex="S\subseteq D"></span>，
 

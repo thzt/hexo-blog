@@ -16,6 +16,12 @@ title: 递归函数（六）：最多有多少个程序
 
 ### 可计算性
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-3315ef8756b21619.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 我们听说过，现代计算机在计算能力上是与图灵机等价的，
 
 什么叫做计算能力呢？
@@ -70,6 +76,10 @@ title: 递归函数（六）：最多有多少个程序
 
 <br/>
 
+![](http://upload-images.jianshu.io/upload_images/1023733-3c5dd1454fcd0559.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 因此，所有程序的个数是可数的，而这些程序可计算的函数个数也一定是可数的，
 
 它们可能是全函数，也可能是部分函数。
@@ -85,6 +95,12 @@ title: 递归函数（六）：最多有多少个程序
 <br/>
 
 ### 集合个数的可枚举性
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-a6e30544d2c6c7c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 程序<span data-katex="\mathscr{P}"></span>所计算的函数，我们可以记为<span data-katex="\psi (x_1,x_2,\cdots ,x_n)"></span>，
 
@@ -138,6 +154,12 @@ title: 递归函数（六）：最多有多少个程序
 
 ### 停机问题
 
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-1fb62dcb731ff72f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
+
 任给一个程序和一个自然数，问该程序对这个自然数输入的计算是否停止，
 
 这个问题称为停机问题。
@@ -187,6 +209,12 @@ title: 递归函数（六）：最多有多少个程序
 <br/>
 
 ### 可判定性
+
+<br/>
+
+![](http://upload-images.jianshu.io/upload_images/1023733-5e01504f5037d0e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<br/>
 
 可判定性问题，指的是一个询问真或者假的问题是否可以被回答。
 
