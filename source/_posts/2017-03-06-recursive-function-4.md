@@ -232,7 +232,7 @@ f n = n + f(n-2)
 
 （2）后继函数<span data-katex="s(x)=x+1"></span>
 
-（3）投影函数<span data-katex="u^n_i(x_1,\cdots ,x_n)=x_i"></span>，<span data-katex="i\leqslant i\leqslant n"></span>
+（3）投影函数<span data-katex="u^n_i(x_1,\cdots ,x_n)=x_i"></span>，<span data-katex="1\leqslant i\leqslant n"></span>
 
 则由初始函数经过有限次合成运算和原始递归运算得到的函数，称为原始递归函数。
 
