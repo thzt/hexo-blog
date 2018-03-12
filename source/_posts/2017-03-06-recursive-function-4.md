@@ -102,7 +102,7 @@ title: 递归函数（四）：全函数与计算的可终止性
 
 <br/>
 
-可见，我们熟悉的函数，指是全函数。
+可见，我们熟悉的函数，指的是全函数。
 
 值得注意的是，部分函数的定义已经包含了我们学过的“函数”的定义，
 
@@ -146,7 +146,7 @@ f n = n + f(n-2)
 
 我们给整数集加上一个特殊元素“<span data-katex="\perp "></span>”，称为bottom，来表示非终止性，
 
-而将`f :: Int -> Int`解释为集合<span data-katex="N\cup \lbrace \perp \rbrace "></span>上一个的数学函数。
+而将`f :: Int -> Int`解释为集合<span data-katex="N\cup \lbrace \perp \rbrace "></span>上的一个数学函数。
 
 <br/>
 
