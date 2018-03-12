@@ -119,7 +119,7 @@ ackermann k x = ackermann (k-1) $ ackermann k x-1
 
 （2）后继函数<span data-katex="s(x)=x+1"></span>
 
-（3）投影函数<span data-katex="u^n_i(x_1,\cdots ,x_n)=x_i"></span>，<span data-katex="i\leqslant i\leqslant n"></span>
+（3）投影函数<span data-katex="u^n_i(x_1,\cdots ,x_n)=x_i"></span>，<span data-katex="1\leqslant i\leqslant n"></span>
 
 由初始函数，经过有限次合成运算，原始递归运算，以及极小化运算，得到的函数称为递归函数。
 
@@ -163,7 +163,7 @@ ackermann k x = ackermann (k-1) $ ackermann k x-1
 
 <br/>
 
-如果特征函数<span data-katex="\chi _B"></span>是第一个递归的全函数，
+如果特征函数<span data-katex="\chi _B"></span>是一个递归的全函数，
 
 则我们总是可以判断<span data-katex="\chi _B(x)"></span>等于<span data-katex="0"></span>还是<span data-katex="1"></span>，
 
