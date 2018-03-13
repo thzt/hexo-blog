@@ -177,6 +177,8 @@ ackermann k x = ackermann (k-1) $ ackermann k x-1
 
 则称集合<span data-katex="B"></span>是一个递归可枚举集。
 
+每一个部分递归函数，都确定出一个递归可枚举集。
+
 <br/>
 
 因此，对于每一个自然数<span data-katex="x\in N"></span>，
