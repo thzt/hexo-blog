@@ -173,7 +173,9 @@ fix g 10
 
 <br/>
 
-注意，`fix g`得到了`g`的不动点，即`(fix g) = g (fix g)`。
+注意，`fix g`得到的是`g`的不动点，而不是`fact`的不动点，
+
+即`(fix g) = g (fix g)`。
 
 <br/>
 
@@ -216,7 +218,7 @@ Y组合子，是[Haskell B. Curry](https://zh.wikipedia.org/wiki/Haskell_Curry)�
 
 因此，Y组合子是一个不动点算子，它可以得到任意函数的不动点。
 
-其他的不动点组合子还有图灵不动点组合子<span data-katex="\Theta"></span>，
+其他的不动点算子还有图灵不动点组合子<span data-katex="\Theta"></span>，
 
 <span data-katex="\Theta:=(\lambda x.\lambda y.(y\ (x\ x\ y)))\ (\lambda x.\lambda y.(y\ (x\ x\ y)))"></span>
 
