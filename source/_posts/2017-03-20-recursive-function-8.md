@@ -243,7 +243,7 @@ fix g (k+1)
 
 拟序关系自然具有反对称性。
 
-其中，反自反关系，指的是不存在<span data-katex="x\in A"></span>，使得<span data-katex="x<x"></span>。
+（其中，反自反关系，指的是不存在<span data-katex="x\in A"></span>，使得<span data-katex="x<x"></span>。
 
 <br/>
 
@@ -293,7 +293,7 @@ fix g (k+1)
 
 上文中，我们画出了偏序集<span data-katex="A=\lbrace 1,2,3,4,5,6,9,10,15 \rbrace"></span>对应的哈斯图，
 
-我们取<span data-katex="B_1=\lbrace 1,2,3 \rbrace"></span>，<span data-katex="B_1=\lbrace 3,5,15 \rbrace"></span>，<span data-katex="B_3=A"></span>，
+我们取<span data-katex="B_1=\lbrace 1,2,3 \rbrace"></span>，<span data-katex="B_2=\lbrace 3,5,15 \rbrace"></span>，<span data-katex="B_3=A"></span>，
 
 则<span data-katex="1"></span>是<span data-katex="B_1"></span>的最小元，也是极小元，<span data-katex="2,3"></span>是<span data-katex="B_1"></span>的极大元，但<span data-katex="B_1"></span>没有最大元。
 
