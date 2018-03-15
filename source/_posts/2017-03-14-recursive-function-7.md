@@ -267,7 +267,7 @@ y = \f -> (\x -> f (x x)) (\x -> f (x x))
 newtype Mu a = Mu (Mu a -> a)
 
 y :: (a -> a) -> a
-y f = (\h -> h <span data-katex=" Mu h) (\x -> f . (\(Mu g) -> g) x "></span> x)
+y f = (\h -> h $ Mu h) (\x -> f . (\(Mu g) -> g) x $ x)
 ```
 
 <br/>
