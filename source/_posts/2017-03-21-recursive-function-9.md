@@ -30,7 +30,7 @@ title: 递归函数（九）：最小不动点定理
 
 <br/>
 
-如果一个偏序集<span data-katex="(D,\leqslant )"></span>的每个有向子集<span data-katex="S\subseteq D"></span>都有上确界（记为<span data-katex="\bigvee S"></span>）
+如果一个偏序集<span data-katex="(D,\leqslant )"></span>的每个有向子集<span data-katex="S\subseteq D"></span>都有上确界（记为<span data-katex="\bigvee S"></span>），
 
 就称它是一个有向完全偏序集，
 
@@ -56,7 +56,7 @@ title: 递归函数（九）：最小不动点定理
 
 <span data-katex="f:D\rightarrow E"></span>是集合上定义的一个函数，
 
-如果，<span data-katex="S\subseteq D"></span>，则<span data-katex="f(S)"></span>为<span data-katex="E"></span>的子集，
+如果<span data-katex="S\subseteq D"></span>，则<span data-katex="f(S)"></span>为<span data-katex="E"></span>的子集，
 
 其中<span data-katex="f(S)=\lbrace f(d)|\ d\in S \rbrace"></span>。
 
@@ -84,7 +84,7 @@ title: 递归函数（九）：最小不动点定理
 
 <br/>
 
-完全偏序集<span data-katex="(D,\leqslant )"></span>和<span data-katex="(E,\leqslant )"></span>上的连续也可以定义偏序结构，
+完全偏序集<span data-katex="(D,\leqslant )"></span>到<span data-katex="(E,\leqslant )"></span>的连续函数，也可以定义出一个偏序结构，
 
 我们称<span data-katex="f\leqslant g"></span>，当且仅当对于每一个<span data-katex="d\in D"></span>，我们有<span data-katex="f(d)\leqslant g(d)"></span>。
 
@@ -124,15 +124,13 @@ title: 递归函数（九）：最小不动点定理
 
 设<span data-katex="a"></span>是上确界，<span data-katex="a=\bigvee \lbrace f^n(\perp )|\ n\geqslant 0 \rbrace "></span>，
 
-首先<span data-katex="a"></span>是<span data-katex="f"></span>的不动点，因为，由<span data-katex="f"></span>的连续性，
+则<span data-katex="a"></span>是<span data-katex="f"></span>的不动点，因为，由<span data-katex="f"></span>的连续性，
 
-<span data-katex="f(a)=f(\bigvee \lbrace f^n(\perp )|\ n\geqslant 0 \rbrace )"></span>
+<span data-katex="f(a)=f(\bigvee \lbrace f^n(\perp )|\ n\geqslant 0 \rbrace )=\bigvee \lbrace f^{(n+1)}(\perp )|\ n\geqslant 0 \rbrace "></span>，
 
-<span data-katex="f(a)=\bigvee \lbrace f^{(n+1)}(\perp )|\ n\geqslant 0 \rbrace "></span>，
+而<span data-katex="\lbrace f^n(\perp ) \rbrace"></span>与<span data-katex="\lbrace f^{(n+1)}(\perp ) \rbrace"></span>有同样的上确界，
 
-但是由于<span data-katex="\lbrace f^n(\perp ) \rbrace"></span>与<span data-katex="\lbrace f^{(n+1)}(\perp ) \rbrace"></span>，有同样的上确界，
-
-所以，<span data-katex="f(a)=a"></span>。
+所以，<span data-katex="f(a)=a"></span>，即<span data-katex="a"></span>是<span data-katex="f"></span>的不动点。
 
 <br/>
 
@@ -142,7 +140,9 @@ title: 递归函数（九）：最小不动点定理
 
 类似的，对于任意的<span data-katex="n\geqslant 0"></span>，<span data-katex="f^n(\perp )\leqslant f^n(b)"></span>。
 
-但是，由于<span data-katex="b"></span>是<span data-katex="f"></span>的不动点，所以<span data-katex="f^n(b)=b"></span>，
+<br/>
+
+而<span data-katex="b"></span>是<span data-katex="f"></span>的不动点，所以<span data-katex="f^n(b)=b"></span>，
 
 因此<span data-katex="b"></span>是集合<span data-katex="\lbrace f^n(\perp )|\ n\geqslant 0 \rbrace"></span>的上界。
 
