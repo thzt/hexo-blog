@@ -117,15 +117,13 @@ fix g (k+1)
 
 并且认为<span data-katex="fix^{[0]}\ g"></span>对于任意的<span data-katex="n"></span>无定义。
 
-<br/>
-
-因此，<span data-katex="fix^{[1]}\ g\ 1 = 1"></span>，而<span data-katex="fix^{[1]}\ g\ n"></span>在<span data-katex="n &gt; 1"></span>时没有定义。
+<span data-katex="fix^{[1]}\ g\ 1 = 1"></span>，而<span data-katex="fix^{[1]}\ g\ n"></span>在<span data-katex="n &gt; 1"></span>时没有定义，
 
 <span data-katex="fix^{[2]}\ g\ 1 = 1"></span>，<span data-katex="fix^{[2]}\ g\ 2 = 2"></span>，而<span data-katex="fix^{[2]}\ g\ n"></span>在<span data-katex="n &gt; 2"></span>时没有定义。
 
 <br/>
 
-所以，<span data-katex="fix^{[n]}\ g"></span>是一个部分函数，且，
+因此，<span data-katex="fix^{[n]}\ g"></span>是一个部分函数，且，
 
 <span data-katex="fix^{[n+1]}\ g"></span>所表示的函数，总是比<span data-katex="fix^{[n]}\ g"></span>的计算能力更强一些，离`fact`更近一些。
 
