@@ -367,6 +367,8 @@ katex: true
 
 将每一个单子范畴<span data-katex="Monad"></span>中的幺半群同态，映射为自函子范畴<span data-katex="Functor"></span>中的自然变换。
 
+<br/>
+
 ### reference
 
 [Categories for the Working Mathematician 2nd](https://book.douban.com/subject/1823110/)
