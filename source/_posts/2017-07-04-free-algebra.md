@@ -398,3 +398,7 @@ katex: true
 [Wikipedia: Free Monoid](https://en.wikipedia.org/wiki/Free_monoid)
 
 [Stack Exchange: Why is the free monoid free?](https://math.stackexchange.com/questions/58553/why-is-the-free-monoid-free)
+
+<br/>
+
+[Wikipedia: Free Monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)#Free_monads)
