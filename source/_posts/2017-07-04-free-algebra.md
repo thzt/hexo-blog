@@ -353,17 +353,15 @@ katex: true
 
 <br/>
 
-此外，与自由幺半群类似的，
+此外，与自由幺半群类似的，**自由单子**（free monad）是由自函子生成的幺半群（单子），
 
-**自由单子**（free monad）是由自函子范畴<span data-katex="Functor"></span>生成的单子范畴<span data-katex="Monad"></span>，
+自函子范畴<span data-katex="Functor"></span>，对象是自函子，箭头是自函子之间的自然变换，
 
-自函子范畴<span data-katex="Functor"></span>中的对象是自函子，箭头是自函子之间的自然变换，
-
-单子范畴<span data-katex="Monad"></span>中的对象是单子（由自函子构成的幺半群），箭头是幺半群同态。
+单子范畴<span data-katex="Monad"></span>，对象是单子（由自函子构成的幺半群），箭头是幺半群同态。
 
 <br/>
 
-其中，遗忘函子<span data-katex="U:Monad\to Functor"></span>，
+遗忘函子<span data-katex="U:Monad\to Functor"></span>，
 
 将单子范畴<span data-katex="Monad"></span>中的单子，映射成自函子范畴<span data-katex="Functor"></span>中的函子，
 
