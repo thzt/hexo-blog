@@ -371,7 +371,7 @@ katex: true
 
 将单子范畴<span data-katex="Monad"></span>中的幺半群同态，映射为自函子范畴<span data-katex="Functor"></span>中的自然变换，
 
-并且，<span data-katex="F"></span>为<span data-katex="U"></span>的左伴随函子，<span data-katex="F\dashv U"></span>。
+其中，<span data-katex="F"></span>为<span data-katex="U"></span>的左伴随函子，<span data-katex="F\dashv U"></span>。
 
 <br/>
 
