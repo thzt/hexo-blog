@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Logic
-title: Dynamic Typing
+title: Gradual Typing
 ---
 
 最近看了一篇文章，[TypeScript: Static or Dynamic? The war is over.](https://medium.com/@gaperton/typescript-static-or-dynamic-64bceb50b93e)，
