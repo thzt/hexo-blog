@@ -292,7 +292,7 @@ Smalltalk的设计者之一[Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay)，
 
 <br/>
 
-事实上，最难达成一致的是对问题本身的认知和大家的目标。
+事实上，**最难达成一致的是对问题本身的认知和大家的目标。**
 
 <br/>
 
@@ -305,9 +305,3 @@ Smalltalk的设计者之一[Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay)，
 <br/>
 
 我们想达到的预期，在别人眼里真的是个问题么？
-
-因此，可能我们听到的最多的话就是，
-
-<br/>
-
-> 你做这个干什么，有什么用？
