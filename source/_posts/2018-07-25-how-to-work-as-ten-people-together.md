@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Mind
-title: 像十个人一样工作
+title: 如何像十个人一样工作
 ---
 
 和其他行业一样，编程行业中不同从业者的生产率是有差别的，
