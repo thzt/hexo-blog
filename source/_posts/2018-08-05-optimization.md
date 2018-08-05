@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Design
-title: 如何避免自己过早优化
+title: 如何避免过早优化
 ---
 
 > Premature optimization is the root of all evils.
