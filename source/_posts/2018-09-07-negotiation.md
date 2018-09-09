@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: Design
-title: 理性协商
+categories: Mind
+title: 共识是怎样达成的
 ---
 
 在软件的整个开发过程中，**编码**是一个重要的环节，
