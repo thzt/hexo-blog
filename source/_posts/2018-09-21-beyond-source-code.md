@@ -211,6 +211,10 @@ title: 从源代码到领域知识
 
 <br/>
 
+源代码也只是一种**中间语言**，写代码的那个人，才是关键。
+
+<br/>
+
 > Reuse is about people and education, not just architect.
 
 > —— 《[软件架构师应该知道的97件事](https://link.zhihu.com/?target=https%3A//book.douban.com/subject/4745287/)》
