@@ -70,7 +70,7 @@ title: 真实在哪里
 
 这些刷完之后，我马上发现了更基础的薄弱环节，那就是Lambda演算。Lisp是函数式语言的一种，一门很像Lambda演算的语言，究竟有什么渊源呢，还得看书，同时各种语言的实现原理也吸引了我。
 
-《Lambda-Calculus and Combinators, an Introduction》《Concept in Programming Languages》《Compiling Continuations》《Lecture notes on the Lambda Calculus》《数学·计算·逻辑（陆汝钤）》《哥德尔·爱舍尔·巴赫 集异璧之大成》
+《Lambda-Calculus and Combinators, an Introduction》《Concept in Programming Languages》《Compiling with Continuations》《Lecture notes on the Lambda Calculus》《数学·计算·逻辑（陆汝钤）》《哥德尔·爱舍尔·巴赫 集异璧之大成》
 
 刷怪的途中，是不可能绕过Haskell的，身为函数式家族的一朵奇葩，必须得学，是该死磕一下的时候了。
 
