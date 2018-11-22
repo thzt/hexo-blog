@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Design
-title: 用户是聪明人
+title: 我们的用户是个聪明人
 ---
 
 我们常说用户第一，以及注重实现用户价值，
