@@ -369,15 +369,21 @@ const hello = () =>
 
 > This naturally gives rise to handlers not only of exceptions, but of any other eﬀect, yielding a novel concept that, amongst others, can capture stream redirection, backtracking, co-operative multi-threading, and delimited continuations [21,22,5].
 
-#### 3.4 handler
+<br/>
 
-原来加入到computational λ-calculus中的operation，其语义是algebraic的，而且为了表示effects的
+原来加入到computational λ-calculus中的operation，初衷是为了表示effects，
 
-所以，称为algebraic effects还是挺合适的，只不过algebraic太笼统了，容易让人产生其他联系。
+并且其语义还是algebraic的，所以，称为algebraic effects还是挺合适的，
+
+只不过algebraic太笼统了，容易让人产生其他联系。
 
 把algebraic effects理解为algebraic operation的定义还是比较合适的。
 
-<br/>
+#### 3.4 handler
+
+这篇文章中介绍了algebraic effects handler的用法，
+
+加上handler之后，就和delimited continuation的概念联系起来了。
 
 [An Introduction to Algebraic Eﬀects and Handlers](https://www.eff-lang.org/handlers-tutorial.pdf)后文还介绍了用delimited continuation实现各种effects的方法，
 
@@ -399,7 +405,7 @@ const hello = () =>
 
 <br/>
 
-等等等等，还有好多，毕竟computational λ-calculus中的operation就是为了建模各种effects的。
+还有好多，毕竟computational λ-calculus中的operation就是为了建模各种effects的。
 
 ![](https://upload-images.jianshu.io/upload_images/1023733-4ef97b9314b0222c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
