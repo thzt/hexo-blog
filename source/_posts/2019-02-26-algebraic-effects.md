@@ -377,15 +377,15 @@ const hello = () =>
 
 只不过algebraic太笼统了，容易让人产生其他联系。
 
-把algebraic effects理解为algebraic operation的定义还是比较合适的。
+把algebraic effects理解为algebraic operation的定义可能更好一些。
 
 #### 3.4 handler
 
-这篇文章中介绍了algebraic effects handler的用法，
+这篇文章[An Introduction to Algebraic Eﬀects and Handlers](https://www.eff-lang.org/handlers-tutorial.pdf)中介绍了algebraic effects handler的用法，
 
-加上handler之后，就和delimited continuation的概念联系起来了。
+加上handler之后，就和delimited continuation的概念串起来了。
 
-[An Introduction to Algebraic Eﬀects and Handlers](https://www.eff-lang.org/handlers-tutorial.pdf)后文还介绍了用delimited continuation实现各种effects的方法，
+后文还介绍了用delimited continuation实现各种effects的方法，
 
 例如，对于input/output
 
