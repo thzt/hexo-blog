@@ -106,15 +106,15 @@ title: Gradual Typing
 
 （1）静态特性
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-76516c26c946e26f.png
+![syntax](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-76516c26c946e26f.png)
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-b2524f862bce05ff.png
+![statics](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-b2524f862bce05ff.png)
 
 <br/>
 
 （2）动态特性
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0a872566e08756d9.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0a872566e08756d9.png)
 
 上图定义了闭值（closed value）<span data-katex="e val"></span>应当满足的推导规则。
 
@@ -124,7 +124,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-f10a451ba1ab1180.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-f10a451ba1ab1180.png)
 
 上图定义了转化（transition）<span data-katex="e\mapsto e'"></span>应该满足的推导规则。
 
@@ -142,13 +142,13 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 （1）静态特性
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0facb126c43e9845.png
+![syntax](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0facb126c43e9845.png)
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-bcd68eea45cdf560.png
+![statics](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-bcd68eea45cdf560.png)
 
 （2）动态特性
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-a369f8de52cff04e.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-a369f8de52cff04e.png)
 
 与PCF不同的是，这里用了equational dynamics方法进行描述。
 
@@ -168,7 +168,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 我们可以定义一个这样的递归类型，
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-112b868d0efd3ecb.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-112b868d0efd3ecb.png)
 
 因此，函数的参数和函数本身将具有统一的类型（uni-typed）<span data-katex="D"></span>。
 
@@ -204,13 +204,13 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 （1）静态特性
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-5ecbbb7286459ea4.png
+![syntax](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-5ecbbb7286459ea4.png)
 
 我们看到，DPCF的值被划分成了两个**类别**（classes），一个是<span data-katex="number"></span>，另一个是<span data-katex="fun"></span>。
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-42bb48f24773362c.png
+![statics](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-42bb48f24773362c.png)
 
 它表明，如果<span data-katex="d"></span>包含自由变量，<span data-katex="x_1,\cdots,x_n"></span>，
 
@@ -220,21 +220,21 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 （2）动态特性
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-274721e24c279f6d.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-274721e24c279f6d.png)
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0bb8c9fad3b39efe.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0bb8c9fad3b39efe.png)
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-f9e834d474d2a247.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-f9e834d474d2a247.png)
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-1ed071b445e2e78c.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-1ed071b445e2e78c.png)
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0b6351d4fadbff13.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-0b6351d4fadbff13.png)
 
 <br/>
 
 其中涉及到的符号解释如下，
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-dd13ebebc2bd66ad.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-dd13ebebc2bd66ad.png)
 
 <br/>
 
@@ -275,7 +275,7 @@ DPCF可以嵌入到一个static typed的语言中，被视为一个hybrid的语�
 <br/>
 
 （1）静态特性
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-66cd2c00ccd7eb68.png
+![syntax](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-66cd2c00ccd7eb68.png)
 
 其中，类型<span data-katex="dyn"></span>中包含了所有具有动态类型的值。
 
@@ -283,9 +283,9 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-47e6c1dc31ee881c.png
+![statics - 1](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-47e6c1dc31ee881c.png)
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-a42aa87a1c3239b0.png
+![statics - 2](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-a42aa87a1c3239b0.png)
 
 以上类型断言，保证了表达式具有正确的类型。
 
@@ -293,7 +293,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 （2）动态特性
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-3ac3c225c1ebf153.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2018-05-31-gradual-typing/1023733-3ac3c225c1ebf153.png)
 
 不同类别的值之间进行转换<span data-katex="cast"></span>，会产生运行时错误。
 

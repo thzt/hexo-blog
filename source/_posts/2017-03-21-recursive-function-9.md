@@ -18,7 +18,7 @@ title: 递归函数（九）：最小不动点定理
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-cc5d7e479b1911da.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-cc5d7e479b1911da.png)
 
 <br/>
 
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-eb3b6c096d73d399.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-eb3b6c096d73d399.png)
 
 <br/>
 
@@ -80,7 +80,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-7c12a71b029409d8.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-7c12a71b029409d8.png)
 
 <br/>
 
@@ -98,7 +98,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-212453ef1b86ac04.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-212453ef1b86ac04.png)
 
 <br/>
 
@@ -154,7 +154,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-be19cfece5c3589e.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-21-recursive-function-9/1023733-be19cfece5c3589e.png)
 
 <br/>
 

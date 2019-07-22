@@ -8,7 +8,7 @@ title: 递归函数（三）：归纳原理
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-b5630d6350cb8d0f.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-b5630d6350cb8d0f.png)
 
 <br/>
 
@@ -60,7 +60,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-a8ad53859d33e161.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-a8ad53859d33e161.png)
 
 <br/>
 
@@ -114,7 +114,7 @@ fact n = n * fact (n-1)
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-eec07e9f1d1ccdb2.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-eec07e9f1d1ccdb2.png)
 
 <br/>
 
@@ -176,7 +176,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-cde531c9f6d2cab2.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-cde531c9f6d2cab2.png)
 
 <br/>
 
@@ -248,7 +248,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-b14783f3b0cddba1.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-b14783f3b0cddba1.png)
 
 <br/>
 
@@ -310,7 +310,7 @@ https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/201
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-7e329a3fec9f7a22.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-03-recursive-function-3/1023733-7e329a3fec9f7a22.png)
 
 <br/>
 

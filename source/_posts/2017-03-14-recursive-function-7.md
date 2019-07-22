@@ -24,7 +24,7 @@ title: 递归函数（七）：不动点算子
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-c82626b07032c9e8.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-c82626b07032c9e8.png)
 
 <br/>
 
@@ -87,7 +87,7 @@ fact n = case n of
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-417c44596d6f438d.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-417c44596d6f438d.png)
 
 <br/>
 
@@ -146,7 +146,7 @@ g f n = case n of
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-6179cf69f757a05a.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-6179cf69f757a05a.png)
 
 <br/>
 
@@ -198,7 +198,7 @@ fact' = fix $ \fact -> \n -> case n of
 
 <br/>
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-2506f85747258985.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-14-recursive-function-7/1023733-2506f85747258985.png)
 
 <br/>
 

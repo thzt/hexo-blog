@@ -81,7 +81,7 @@ That is, <span data-katex="x"></span> takes us to <span data-katex="p_i"></span>
 
 <br/ >
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-43bdf83dc793438f.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-43bdf83dc793438f.png)
 
 Figure: Every string longer than the number of states must cause a state to repeat.
 
@@ -151,7 +151,7 @@ If <span data-katex="G"></span> is a CFG whose language contains at least one st
 
 Let <span data-katex="G=(V,T,P,S)"></span> be a CFG. If the recursive inference procedure tells us that terminal string <span data-katex="w"></span> is in the language of variable <span data-katex="A"></span>, then there is a parse tree with root <span data-katex="A"></span> and yield <span data-katex="w"></span>.
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-2c93eb7c6f29be7c.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-2c93eb7c6f29be7c.png)
 
 <br/ >
 
@@ -186,7 +186,7 @@ Now, starting with a CNF grammar <span data-katex="G=(V,T,P,S)"></span> such tha
 
 <br/ >
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-67178ea72804bcbb.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-67178ea72804bcbb.png)
 
 Figure above suggests the longest path in the tree for <span data-katex="z"></span>, where <span data-katex="k"></span> is at least <span data-katex="m"></span> and the path is of length <span data-katex="k+1"></span>. Since <span data-katex="k\geqslant m"></span>, there are at least <span data-katex="m+1"></span> occurrences of variables <span data-katex="A_0,A_1,\cdots ,A_k"></span> on the path. As there are only <span data-katex="m"></span> different variables in <span data-katex="V"></span>, at least two of the last <span data-katex="m+1"></span> variables on the path (that is, <span data-katex="A_{k-m}"></span> through <span data-katex="A_k"></span>, inclusive) must be the same variable. Suppose <span data-katex="A_i=A_j"></span>, where <span data-katex="k-m\leqslant i<j\leqslant k"></span>.
 
@@ -194,7 +194,7 @@ Figure above suggests the longest path in the tree for <span data-katex="z"></sp
 
 Then it is possible to divide the tree as shown in Figure bellow.
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-a7391506188759fe.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-a7391506188759fe.png)
 
 <br/ >
 
@@ -204,13 +204,13 @@ String <span data-katex="w"></span> is the yield of the subtree rooted at <span 
 
 If <span data-katex="A_i=A_j=A"></span>, then we can construct new parse trees from the original tree, as suggested in Figure bellow (a). First we may replace the subtree rooted at <span data-katex="A_i"></span>, which has yield <span data-katex="vwx"></span>, by the subtree rooted at <span data-katex="A_j"></span>, which has yield <span data-katex="w"></span>. The reason we can do so is that both of these trees have root labeled <span data-katex="A"></span>. The resulting tree is suggested in Figure bellow (b); it has yield <span data-katex="uwy"></span> and corresponds to the case <span data-katex="i=0"></span> in the pattern of strings <span data-katex="uv^iwx^iy"></span>.
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-b043df1df50b4bad.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-b043df1df50b4bad.png)
 
 <br/ >
 
 Another option is suggested by Figure bellow. There, we have replaced the subtree rooted at <span data-katex="A_j"></span> by the entire subtree rooted at <span data-katex="A_i"></span>. Again, the justification is that we are substituting one tree with root labeled <span data-katex="A"></span> for another tree with the same root label. The yield of this tree is <span data-katex="uv^2wx^2y"></span>. Were we to then replace the subtree of Figure below with yield <span data-katex="w"></span> by the largar subtree with yield <span data-katex="vwx"></span>, we would have a tree with yield <span data-katex="uv^3wx^3y"></span>, and so on, for any exponent <span data-katex="i"></span>. Thus, there are parse trees in <span data-katex="G"></span> for all strings of the form <span data-katex="uv^iwx^iy"></span>, and we have almost proved the pumping lamma.
 
-https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-ae51262c073baa7d.png
+![](https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-05-24-pumping-lemma/1023733-ae51262c073baa7d.png)
 
 <br/ >
 
