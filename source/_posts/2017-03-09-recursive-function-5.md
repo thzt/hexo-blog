@@ -20,7 +20,7 @@ title: 递归函数（五）：递归集与递归可枚举集
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-567ebbb9d0fa7c88.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-09-recursive-function-5/1023733-567ebbb9d0fa7c88.png
 
 <br/>
 
@@ -54,7 +54,7 @@ title: 递归函数（五）：递归集与递归可枚举集
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-b1d4c18df4caf3bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-09-recursive-function-5/1023733-b1d4c18df4caf3bc.png
 
 <br/>
 
@@ -141,7 +141,7 @@ ackermann k x = ackermann (k-1) $ ackermann k x-1
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-6f7383f96e58c74e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-09-recursive-function-5/1023733-6f7383f96e58c74e.png
 
 <br/>
 

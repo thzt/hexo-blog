@@ -20,7 +20,7 @@ title: 递归函数（八）：偏序结构
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-a8ca5067e631ea34.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-20-recursive-function-8/1023733-a8ca5067e631ea34.png
 
 <br/>
 
@@ -103,7 +103,7 @@ fix g (k+1)
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-0a009ed0d24a4df6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-20-recursive-function-8/1023733-0a009ed0d24a4df6.png
 
 <br/>
 
@@ -149,7 +149,7 @@ fix g (k+1)
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-548b287983ed9034.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-20-recursive-function-8/1023733-548b287983ed9034.png
 
 <br/>
 
@@ -211,7 +211,7 @@ fix g (k+1)
 
 我们可以画出偏序集<span data-katex="\lbrace 1,2,3,4,5,6,9,10,15 \rbrace"></span>对应的哈斯图，如下，
 
-![](http://upload-images.jianshu.io/upload_images/1023733-3619f4e73479ac87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-20-recursive-function-8/1023733-3619f4e73479ac87.png
 
 <br/>
 
@@ -219,7 +219,7 @@ fix g (k+1)
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-69bf19c128135d6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-20-recursive-function-8/1023733-69bf19c128135d6a.png
 
 <br/>
 
@@ -263,7 +263,7 @@ fix g (k+1)
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-848d5a4650be6c32.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-20-recursive-function-8/1023733-848d5a4650be6c32.png
 
 <br/>
 

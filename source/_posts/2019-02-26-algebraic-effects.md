@@ -39,7 +39,7 @@ Sam Galson有一篇文章[Continuations, coroutines, fibers, effects](https://me
 
 <br/>
 
-![](https://upload-images.jianshu.io/upload_images/1023733-9631b2677b32eaaa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-02-26-algebraic-effects/1023733-9631b2677b32eaaa.png
 
 <br/>
 
@@ -311,7 +311,7 @@ const hello = () =>
 
 当然新概念总是会有定义的，
 
-![](https://upload-images.jianshu.io/upload_images/1023733-200782f6dccd0c8b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-02-26-algebraic-effects/1023733-200782f6dccd0c8b.png
 
 <br/>
 
@@ -361,7 +361,7 @@ const hello = () =>
 
 从 [An Introduction to Algebraic Eﬀects and Handlers](https://www.eff-lang.org/handlers-tutorial.pdf)这篇文献中我们可以看出来，
 
-![](https://upload-images.jianshu.io/upload_images/1023733-b653060aab9f0da8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-02-26-algebraic-effects/1023733-b653060aab9f0da8.png
 
 <br/>
 
@@ -389,25 +389,25 @@ const hello = () =>
 
 例如，对于input/output
 
-![](https://upload-images.jianshu.io/upload_images/1023733-b9b39c23f7786869.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-02-26-algebraic-effects/1023733-b9b39c23f7786869.png
 
 <br/>
 
 对于exception，
 
-![](https://upload-images.jianshu.io/upload_images/1023733-ad3d214f7968ef96.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-02-26-algebraic-effects/1023733-ad3d214f7968ef96.png
 
 <br/>
 
 对于non-determinism
 
-![](https://upload-images.jianshu.io/upload_images/1023733-1ec0cf263b903d6e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-02-26-algebraic-effects/1023733-1ec0cf263b903d6e.png
 
 <br/>
 
 还有好多，毕竟computational λ-calculus中的operation就是为了建模各种effects的。
 
-![](https://upload-images.jianshu.io/upload_images/1023733-4ef97b9314b0222c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-02-26-algebraic-effects/1023733-4ef97b9314b0222c.png
 
 出自[Notions of computation and monads](https://core.ac.uk/download/pdf/21173011.pdf)
 

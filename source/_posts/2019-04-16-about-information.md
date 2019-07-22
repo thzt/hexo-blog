@@ -5,7 +5,7 @@ title: 信息的隐藏、暴露和传递
 
 ---
 
-![](https://upload-images.jianshu.io/upload_images/1023733-16f88d518fb63c18.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2019-04-16-about-information/1023733-16f88d518fb63c18.png
 
 <br/>
 

@@ -4,7 +4,7 @@ categories: Math
 title: 递归函数（二）：编写递归函数的思路和技巧
 ---
 
-![](http://upload-images.jianshu.io/upload_images/1023733-497eef3766876271.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-02-25-recursive-function-2/1023733-497eef3766876271.png
 
 <br/>
 

@@ -8,7 +8,7 @@ title: 递归函数（四）：全函数与计算的可终止性
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-2b1f2577d5df7bd1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-06-recursive-function-4/1023733-2b1f2577d5df7bd1.png
 
 <br/>
 
@@ -70,7 +70,7 @@ title: 递归函数（四）：全函数与计算的可终止性
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-7cdea02903039737.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-06-recursive-function-4/1023733-7cdea02903039737.png
 
 <br/>
 
@@ -92,7 +92,7 @@ title: 递归函数（四）：全函数与计算的可终止性
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-48920b73b056a92c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-06-recursive-function-4/1023733-48920b73b056a92c.png
 
 <br/>
 
@@ -168,7 +168,7 @@ f n = n + f(n-2)
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-dd7212553dc36d37.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-06-recursive-function-4/1023733-dd7212553dc36d37.png
 
 <br/>
 
@@ -264,7 +264,7 @@ f n = n + f(n-2)
 
 <br/>
 
-![](http://upload-images.jianshu.io/upload_images/1023733-930070b361ad4a52.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+https://raw.githubusercontent.com/thzt/hexo-blog/master/source/images/_posts/2017-03-06-recursive-function-4/1023733-930070b361ad4a52.png
 
 <br/>
 
