@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: Mind
-title: 自出机杼
+title: 别出心裁，自出机杼
 
 ---
 
