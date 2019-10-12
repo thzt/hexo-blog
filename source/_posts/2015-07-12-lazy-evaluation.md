@@ -407,7 +407,7 @@ y = seq x (x, x)
 
 参考：
 
-[Haskell/Denotational semantics]()
+[Haskell/Denotational semantics](https://en.wikibooks.org/wiki/Haskell/Denotational_semantics)
 
 [Haskell/Laziness](https://en.wikibooks.org/wiki/Haskell/Laziness)
 
