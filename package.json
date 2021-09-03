@@ -14,10 +14,12 @@
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
-    "hexo-renderer-pandoc": "^0.2.0",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
     "hexo-util": "^0.6.2",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "hexo-renderer-pandoc": "^0.2.6"
   }
 }
