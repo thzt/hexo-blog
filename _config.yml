@@ -80,7 +80,6 @@ stylus:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/thzt/thzt.github.io.git
+  repo: git@github.com:thzt/thzt.github.io.git
   branch: master
   message: 
-
