@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Mind
+categories: Project
 title: 不通则痛
 
 ---

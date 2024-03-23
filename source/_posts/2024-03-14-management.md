@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Mind
+categories: Team
 title: 团队管理框架
 
 ---

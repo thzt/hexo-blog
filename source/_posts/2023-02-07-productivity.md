@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Mind
+categories: ToD
 title: 研发生产力应当如何度量
 
 ---

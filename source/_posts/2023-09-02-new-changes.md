@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Mind
+categories: Project
 title: 软件项目的新变革
 
 ---
