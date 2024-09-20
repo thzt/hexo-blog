@@ -2,6 +2,9 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+# Env
+node: v12.14.0
+
 # Site
 title: 何幻
 subtitle: Programming is about ideas, <br/>languages are just a way to express them.
