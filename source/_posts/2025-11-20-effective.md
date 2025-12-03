@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Mind
+categories: AI
 title: AI 的适用性和有效性
 
 ---
