@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: AI
-title: 学会掌控复读机的概率游戏
+title: 学会熟练使用复读机
 
 ---
 
