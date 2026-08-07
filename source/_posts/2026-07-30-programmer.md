@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: AI
-title: AI 不只是能让我们写后端
+title: AI 不止是能让我们写后端
 ---
 
 最近有很多公司，都在让前端用 AI 写后端了。
